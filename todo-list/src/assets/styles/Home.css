@@ -1,0 +1,124 @@
+.todo-container {
+    background-color: #282c34;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    max-width: 500px;
+    margin: 50px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eee;
+}
+
+h2 {
+    color: #61dafb;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.add-task-form {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.task-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #333;
+    color: #eee;
+}
+
+.task-input::placeholder {
+    color: #888;
+}
+
+.add-button {
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #47bdd5;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.task-item span {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #eee;
+}
+
+.delete-button {
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c62d2d;
+}
+body {
+    background-color: #181818;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  h2 {
+    color: #61dafb;
+  }
+  
+  .task-input {
+    background-color: #282828;
+    color: #f0f0f0;
+    border-color: #444;
+  }
+  
+  .task-input::placeholder {
+    color: #888;
+  }
+  
+  .task-item {
+    background-color: #333;
+    color: #f0f0f0;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.05);
+  }
+  
+  .add-button {
+    background-color: #61dafb;
+    color: #000;
+  }

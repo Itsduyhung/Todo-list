@@ -1,0 +1,1 @@
+Assert : chứa file tĩnh (picture, css, text) text Có thể chứa file JSON hoặc các file text dùng cho localization (dịch ngôn ngữ).
